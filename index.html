@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="header">Choose your characters</h1>
+    <div class="select-wrap">
+        <div class="character-div">
+            <select name="" class="list" id="character-list1">
+                <option selected disabled hidden value="default">Character #1</option>
+                <option>Luke Skywalker</option>
+                <option>Darth Vader</option>
+                <option>Leia Organa</option>
+                <option>Obi-Wan Kenobi</option>
+                <option>Chewbacca</option>
+                <option>Yoda</option>
+            </select>
+        </div>
+        <button class="render-btn" id="data-btn" disabled>Show characters</button>
+        <div class="character-div">
+            <select name="" class="list" id="character-list2">
+                <option selected disabled hidden value="default">Character #2</option>
+                <option>Luke Skywalker</option>
+                <option>Darth Vader</option>
+                <option>Leia Organa</option>
+                <option>Obi-Wan Kenobi</option>
+                <option>Chewbacca</option>
+                <option>Yoda</option>
+            </select>
+        </div>
+    </div>
+    <div class="character-wrap">
+        <div class="char-div" id="character1-div">
+            <div class="img-div">
+                <img src="" alt="Picture of a Star Wars character" id="char1-img" class="char-img" hidden>
+            </div>
+            <h2 id="char1-h2"></h2>
+            <div id="info-div1">
+                <p id="haircolor-p1"></p>
+                <p id="height-p1"></p>
+                <p id="mass-p1"></p>
+                <p id="gender-p1"></p>
+                <p id="skincolor-p1"></p>
+                <p id="eyecolor-p1"></p>
+                <p id="movies-p1"></p>
+            </div>
+        </div>
+        <button class="compare-btn" id="compare-btn" hidden>Compare characters</button>
+        <div class="char-div" id="character2-div">
+            <div class="img-div">
+                <img src="" alt="Picture of a Star Wars character" id="char2-img" class="char-img" hidden>
+            </div>
+            <h2 id="char2-h2"></h2>
+            <div id="info-div2">
+                <p id="haircolor-p2"></p>
+                <p id="height-p2"></p>
+                <p id="mass-p2"></p>
+                <p id="gender-p2"></p>
+                <p id="skincolor-p2"></p>
+                <p id="eyecolor-p2"></p>
+                <p id="movies-p2"></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
